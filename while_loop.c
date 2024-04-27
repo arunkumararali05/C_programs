@@ -9,7 +9,7 @@ int main() {
 
     if (number < 0) {
         printf("Error: Factorial is not defined for negative numbers.\n");
-        return 1; // Exit program with error code
+        return 1;
     }
 
     while (i <= number) {
